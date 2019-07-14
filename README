@@ -1,0 +1,8 @@
+A simple python script.
+
+It usues data.json as source file for referring to words and their definitions. 
+It loads the data from source file using json into a dictionary.
+
+Working:
+1. It looks for the given word in reference dictionary and if the word is not present then using diff lib library, 
+it finds the closest match to the word and gives a suggestion.
